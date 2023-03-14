@@ -60,4 +60,5 @@ make -j$(nproc)
 mkdir -p $INSTALL_DIR/gsad
 make DESTDIR=$INSTALL_DIR/gsad install
 sudo cp -rv $INSTALL_DIR/gsad/* /
+sudo cp -rv $INSTALL_DIR/gvmd/lib/* /lib/
 
