@@ -90,6 +90,6 @@ make -j$(nproc)
 # Installing gvmd
 mkdir -p $INSTALL_DIR/gvmd
 make DESTDIR=$INSTALL_DIR/gvmd install
-sudo cp -rv $INSTALL_DIR/gvmd/*/* /
+sudo cp -rv $INSTALL_DIR/gvmd/* /
 sudo cp -rv $INSTALL_DIR/gvmd/lib/* /lib/
 

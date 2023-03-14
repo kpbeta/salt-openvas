@@ -40,4 +40,3 @@ sudo apt install -y \
 mkdir -p $INSTALL_DIR/gvm-tools
 python3 -m pip install --root=$INSTALL_DIR/gvm-tools --no-warn-script-location gvm-tools
 sudo cp -rv $INSTALL_DIR/gvm-tools/* /
-
