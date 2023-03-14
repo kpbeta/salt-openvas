@@ -480,9 +480,6 @@ sudo apt install -y \
   python3-defusedxml \
   python3-paramiko
 
-# Installing gvm-tools for the current user
-python3 -m pip install --user gvm-tools
-
 # Installing gvm-tools system-wide
 mkdir -p $INSTALL_DIR/gvm-tools
 python3 -m pip install --root=$INSTALL_DIR/gvm-tools --no-warn-script-location gvm-tools

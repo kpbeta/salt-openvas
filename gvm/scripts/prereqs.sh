@@ -35,7 +35,8 @@ sudo apt install --no-install-recommends --assume-yes \
   pkg-config \
   python3 \
   python3-pip \
-  gnupg
+  gnupg \
+  git
 
 # Importing the Greenbone Community Signing key
 curl -f -L https://www.greenbone.net/GBCommunitySigningKey.asc -o /tmp/GBCommunitySigningKey.asc
